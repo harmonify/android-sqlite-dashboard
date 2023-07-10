@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/black"
+    tools:context=".MahasiswaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Biodata Mahasiswa"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#F8F7F7"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:text="NIM Mahasiswa"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_nim"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Nama Mahasiswa"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_nama"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Jenis Kelamin"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_jenis_kelamin"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Alamat"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_alamat"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Email"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_email"
+        style="@style/FormField"/>
+
+    <Button
+        android:id="@+id/button_clear_forms"
+        android:text="Clear Form"
+        style="@style/Button"
+        android:layout_gravity="end"/>
+
+    <LinearLayout style="@style/ButtonContainer">
+        <Button
+            android:id="@+id/button_create"
+            style="@style/ButtonAction"
+            android:text="Add"
+            android:layout_marginStart="0dp"/>
+        <Button
+            android:id="@+id/button_show"
+            style="@style/ButtonAction"
+            android:text="Show"/>
+        <Button
+            android:id="@+id/button_update"
+            style="@style/ButtonAction"
+            android:text="Edit"/>
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/ButtonAction"
+            android:text="Del"
+            android:layout_marginEnd="0dp"/>
+    </LinearLayout>
+</LinearLayout>

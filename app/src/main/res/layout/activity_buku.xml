@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/black"
+    tools:context=".BukuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Data Buku"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#F8F7F7"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:text="Kode Buku"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_kode"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Judul Buku"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_judul"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Pengarang"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_pengarang"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Penerbit"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_penerbit"
+        style="@style/FormField"/>
+
+    <TextView
+        android:text="Nomor ISBN"
+        style="@style/FormLabel"/>
+    <EditText
+        android:id="@+id/form_isbn"
+        style="@style/FormField"/>
+
+    <Button
+        android:id="@+id/button_clear_forms"
+        android:text="Clear Form"
+        style="@style/Button"
+        android:layout_gravity="end"/>
+
+    <LinearLayout style="@style/ButtonContainer">
+        <Button
+            android:id="@+id/button_create"
+            style="@style/ButtonAction"
+            android:text="Add"
+            android:layout_marginStart="0dp"/>
+        <Button
+            android:id="@+id/button_show"
+            style="@style/ButtonAction"
+            android:text="Show"/>
+        <Button
+            android:id="@+id/button_update"
+            style="@style/ButtonAction"
+            android:text="Edit"/>
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/ButtonAction"
+            android:text="Del"
+            android:layout_marginEnd="0dp"/>
+    </LinearLayout>
+</LinearLayout>

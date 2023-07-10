@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FormLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#F8F7F7</item>
+    </style>
+    <style name="FormField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">#555</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#f8F7F7</item>
+        <item name="android:textColorHint">#A5A5A5</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="ButtonContainer">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ButtonAction" parent="ButtonContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#eee</item>
+    </style>
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#eee</item>
+    </style>
+</resources>

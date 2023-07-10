@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_main"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/icon_user" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#F8F7F7"
+        android:layout_marginBottom="60dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username..."
+        android:id="@+id/form_username"
+        android:background="@drawable/bg_main_edit_text"
+        android:textSize="20dp"
+        android:textColor="#f8F7F7"
+        android:textColorHint="#A5A5A5"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password..."
+        android:id="@+id/form_password"
+        android:background="@drawable/bg_main_edit_text"
+        android:textSize="20dp"
+        android:textColor="#f8F7F7"
+        android:textColorHint="#A5A5A5"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign In"
+        android:background="@drawable/bg_main_button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_sign_in"
+        android:textSize="16dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Doesn't have an account yet?"
+        android:background="@drawable/bg_main_button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_register_page"
+        android:textSize="16dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
